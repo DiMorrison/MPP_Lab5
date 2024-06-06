@@ -1,12 +1,7 @@
 import socket
-from random import random
-
-from scapy.layers.inet import UDP, IP
-from scapy.packet import Raw
-from scapy.sendrecv import send
 
 
-def udp_echo_server(port):
+def udp_receiver(port):
     loopback_address = '127.0.0.1'
 
     while True:
@@ -32,4 +27,4 @@ def udp_echo_server(port):
 
 if __name__ == "__main__":
     port = 8080
-    udp_echo_server(port)
+    udp_receiver(port)

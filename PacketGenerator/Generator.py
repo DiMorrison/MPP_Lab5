@@ -29,7 +29,7 @@ def generate_packet(size):
 
     packet = IP(dst=destination_address) / UDP(sport=sender_port, dport=destination_port) / Raw(load=payload)
     send(packet, verbose=False)
-    print(f"Sent {len(payload)} bytes to {destination_address} \n")
+    #print(f"Sent {len(payload)} bytes to {destination_address} \n")
 
 
 def generate_packet_with_distribution(service_type):
@@ -50,7 +50,7 @@ def generate_packet_with_distribution(service_type):
                                          loc=dweibull_params_video[2],
                                          size=1)
 
-    print(f"Generating packet for service type: {service_type}")
+    #print(f"Generating packet for service type: {service_type}")
 
     # Paket unutar MTU
     # generate_packet(min(int(packet_size[0]), 1472))

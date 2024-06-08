@@ -74,7 +74,7 @@ def GenerirajTrajanjeSjednice(category_lambda):
     return round(np.random.exponential(scale=1 / category_lambda), 4)
 
 trenutnoStanje = np.random.choice([0, 1, 2])
-brojKoraka = 100
+brojKoraka = 200
 stanja = [trenutnoStanje]
 trajanjeSjednica = []
 trajanjePojedineSjednice = [0, 0, 0]

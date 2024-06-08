@@ -27,7 +27,7 @@ if __name__ == "__main__":
         writer = csv.writer(csvfile)
         writer.writerow(['State', 'Duration'])
 
-        while ind < 100:
+        while ind < 200:
             ind += 1
             print(f"Current state: {state}")
 

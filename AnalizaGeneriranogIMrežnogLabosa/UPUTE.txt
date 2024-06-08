@@ -1,0 +1,28 @@
+1. Mapa MjerenjaNET
+- sadrži csv datoteke za veličine paketa snimljenog prometa s interneta
+- važno imenovanje za datoteku Kolmogor.py
+
+2. Mapa FilteredData
+- sadrži csv datoteke prometa generatora
+- važno imenovanje za datoteku Kolmogor.py
+
+3. Mapa MjerenjaOrg
+- originalni promet s generatora
+- propušten u filter.py i stavljene datoteke u FilteredData
+
+4. Mapa PacketGenerator
+- sadrži datoteke na generiranje i receivanje paketa
+- sadrži datoteke za Markovljen lanac
+- NOVO: Markovljev lanac samo sa 100 tranzicija
+
+5. filter.py
+- pretvara promet generatora (csv) u 2 csv-a (length i interval_time)
+
+6. Kolmogor.py
+- radi Kolmogor testove, potrebni paketi iz mapa MjerenjaNET i FilteredData
+
+7. lab2.py
+- riješenje druge laboratorijske vježbe (promijeniti ulazne fileove za generiranje grafova)
+
+8. Probabilities.py
+- koristi StanjaVremena.csv(iz MarkovljevLanac.py) i StateDurations.csv(Transitions100.py) i radi empirijske i teoretske vjerojatnosti

@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     with open('StateDurations.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['State', 'Duration'])
+        writer.writerow(['Stanje', 'Trajanje_u_min'])
 
         while ind < 200:
             ind += 1

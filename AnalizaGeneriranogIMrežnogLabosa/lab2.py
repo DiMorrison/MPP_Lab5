@@ -95,7 +95,7 @@ def make_pdf(dist, params, size=10000):
     return pdf
 
 
-files = ['FilteredData\Radio_packet_sizes.csv', 'FilteredData\Radio_inter_arrival_times.csv']
+files = ["a.csv", 'b.csv']
 print("Osnovne informacije o testiranim distribucijama: ")
 for i in range(0,2):
     # Učitavanje podataka iz datoteke

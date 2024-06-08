@@ -16,9 +16,9 @@ datasets = {
     },
     "Radio": {
         "real_packet_sizes": 'MjerenjaNET/Radio_length.csv',
-        "generated_packet_sizes": 'FilteredData/Radio_packet_sizes.csv',
+        "generated_packet_sizes": 'a.csv',
         "real_inter_arrival_times": 'MjerenjaNET/Radio_time.csv',
-        "generated_inter_arrival_times": 'FilteredData/Radio_inter_arrival_times.csv'
+        "generated_inter_arrival_times": 'b.csv'
     },
     "Video": {
         "real_packet_sizes": 'MjerenjaNET/Video_length.csv',

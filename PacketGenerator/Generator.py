@@ -81,5 +81,5 @@ def generate_packet_with_distribution(service_type):
 
 
 if __name__ == "__main__":
-    for _ in range(20):
-        generate_packet_with_distribution(service_types["Video"])
+    for _ in range(5000):
+        generate_packet_with_distribution(service_types["Agario"])

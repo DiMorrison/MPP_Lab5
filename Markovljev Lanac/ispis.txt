@@ -1,0 +1,24 @@
+Trajanje stanja 1 (online igranje): 2.7sekundi i lambda je: 0.037
+Trajanje stanja 2 (strujanje zvuka): 3.05sekundi i lambda je: 0.05
+Trajanje stanja 3 (strujanje videa): 5.36sekundi i lambda je: 0.077
+
+Vjerojatnosti prijelaza između stanja (matrica P):
+[[0.   0.25 0.75]
+ [0.12 0.   0.88]
+ [0.37 0.63 0.  ]]
+
+Matrica intenziteta prijelaza (matrica Q):
+[[-0.03703704  0.00925926  0.02777778]
+ [ 0.006      -0.05        0.044     ]
+ [ 0.02846154  0.04846154 -0.07692308]]
+
+Trajanje sjednica po kategorijama:
+Online igranje: 5614917.97sekundi
+Strujanje zvuka: 6753497.04sekundi
+Strujanje videa: 5903354.09sekundi
+Ukupno trajanje sjednica: 18271769.1sekundi
+
+Vjerojatnost online igranja: 0.3073
+Vjerojatnost strujanja zvuka: 0.369614
+Vjerojatnost strujanja videa: 0.323086
+Ukupna vjerojatnost trajanja sjednica: 1.0

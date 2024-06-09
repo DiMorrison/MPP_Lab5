@@ -1,0 +1,82 @@
+Osnovne informacije o testiranim distribucijama: 
+---------------------------------
+---------------------------------
+Veličina paketa:
+---------------------------------
+---------------------------------
+Distribucija:  expon
+Minimum:  131.82474058599803
+Maksimum:  5538.221201504416
+Srednja vrijednost:  1296.5517847722876
+Medijan:  935.5235523976828
+---------------------------------
+Distribucija:  norm
+Minimum:  206.64032279751336
+Maksimum:  2386.463246747062
+Srednja vrijednost:  1296.5517847722876
+Medijan:  1296.5517847722876
+---------------------------------
+Distribucija:  dweibull
+Minimum:  -1119.4982685778452
+Maksimum:  4095.498268577844
+Srednja vrijednost:  1487.9999999999998
+Medijan:  1487.9999999999998
+---------------------------------
+Distribucija:  gamma
+Minimum:  119.99999999999999
+Maksimum:  122.98598652509706
+Srednja vrijednost:  120.112358694009
+Medijan:  120.00000000001275
+---------------------------------
+Distribucija:  powerlaw
+Minimum:  120.00000000075046
+Maksimum:  3918.992284090179
+Srednja vrijednost:  669.8190579789929
+Medijan:  169.09984286129412
+---------------------------------
+Distribucija:  uniform
+Minimum:  160.5
+Maksimum:  4129.5
+Srednja vrijednost:  2145.0
+Medijan:  2145.0
+---------------------------------
+---------------------------------
+Međudolazno vrijeme:
+---------------------------------
+---------------------------------
+Distribucija:  expon
+Minimum:  2.0229454068181623
+Maksimum:  926.8952037840409
+Srednja vrijednost:  201.27280426134365
+Medijan:  139.51170349339978
+---------------------------------
+Distribucija:  norm
+Minimum:  -114.1527983285414
+Maksimum:  516.6984068512287
+Srednja vrijednost:  201.27280426134365
+Medijan:  201.27280426134365
+---------------------------------
+Distribucija:  dweibull
+Minimum:  -620.1835227253453
+Maksimum:  1029.765810725321
+Srednja vrijednost:  204.79114399998804
+Medijan:  204.79114399998804
+---------------------------------
+Distribucija:  gamma
+Minimum:  0.49976290829418474
+Maksimum:  917.48908894499
+Srednja vrijednost:  173.7114083267055
+Medijan:  106.38605569396765
+---------------------------------
+Distribucija:  powerlaw
+Minimum:  0.0001139608837577777
+Maksimum:  3453.655597125257
+Srednja vrijednost:  710.6154207846167
+Medijan:  215.2956324248139
+---------------------------------
+Distribucija:  uniform
+Minimum:  35.9759856101952
+Maksimum:  3561.614049390039
+Srednja vrijednost:  1798.795017500117
+Medijan:  1798.795017500117
+---------------------------------
